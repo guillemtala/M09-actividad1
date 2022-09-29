@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    /* https://fonts.google.com */
+    font-family: 'Lobster', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../img/21omxpw.jpg");
+    background-attachment: fixed;
+}
+
+
+/* Clear floats after the columns */
+
+.row-c:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+html {
+    scroll-behavior: smooth;
+    margin: 0%;
+}
+
+
+/* Menú */
+
+
+/* Columnas */
+
+.column-33 {
+    width: 33.33%;
+    float: left;
+    height: 100%;
+}
+
+.column-100 {
+    width: 100%;
+    float: left;
+    height: 4vw;
+    background-color: black;
+}
+
+.column-100-2 {
+    width: 100%;
+    padding: 3vw;
+    padding-top: 1vw;
+    float: left;
+}
+
+.column-100-3 {
+    width: 100%;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 3vw;
+}
+
+.column-100-4 {
+    width: 100%;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 3vw;
+    padding-bottom: 1vw;
+}
+
+.column-50 {
+    width: 50%;
+    float: left;
+    text-align: justify;
+    padding-left: 3vw;
+    padding-right: 3vw;
+}
+
+
+/* .fixed {
+    position: fixed;
+} */
+
+.column-5 {
+    width: 20%;
+    float: left;
+    padding: 1vw;
+}
+
+#bravas {
+    background-image: url("../img/bravas.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#butifarra {
+    background-image: url("../img/butifarra.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#hamb {
+    background-image: url("../img/hamburguesa.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#gam {
+    background-image: url("../img/gambas.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#sand {
+    background-image: url("../img/alitas.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.column-50 p {
+    font-size: 1.3vw;
+}
+
+.column-100-4 p {
+    font-size: 1.3vw;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+.menu {
+    width: 100%;
+}
+
+.boton {
+    background-color: #242424;
+    border: none;
+    width: 30vw;
+    color: white;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2vw;
+}
+
+.logo {
+    width: 3vw;
+    padding-top: 0.5vw;
+}
+
+iframe {
+    width: 100%;
+    height: 40vw;
+}
+
+.imagen-logo {
+    width: 30vw;
+}
+
+
+/* Flex */
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+i {
+    font-size: 2vw;
+    color: white;
+    padding-top: 1vw;
+}
+
+.column-33:hover {
+    background: red;
+    color: black;
+    transition: all 0.4s linear;
+}
+
+@media only screen and (max-width: 700px) {
+    .column-100 {
+        height: 12vw;
+    }
+    i {
+        font-size: 5vw;
+        padding-top: 3vw;
+    }
+    .logo {
+        width: 8vw;
+        padding-top: 2.5vw;
+    }
+    h1 {
+        font-size: 5vw;
+    }
+    h2 {
+        font-size: 4vw;
+    }
+    .column-50 {
+        width: 100%;
+    }
+    .column-50 p {
+        font-size: 3vw;
+    }
+    .column-100-4 p {
+        font-size: 3vw;
+    }
+    .boton {
+        background-color: #242424;
+        border: none;
+        width: 100%;
+        color: white;
+    }
+    .imagen-logo {
+        width: 70vw;
+    }
+    iframe {
+        width: 100%;
+        height: 70vw;
+    }
+    .column-5 {
+        width: 50%;
+        float: left;
+    }
+}
