@@ -23,7 +23,6 @@ body {
 
 html {
     scroll-behavior: smooth;
-    margin: 0%;
 }
 
 
@@ -77,10 +76,10 @@ html {
     padding-right: 3vw;
 }
 
-
-/* .fixed {
+.fixed {
     position: fixed;
-} */
+    z-index: 100;
+}
 
 .column-5 {
     width: 20%;
@@ -190,6 +189,10 @@ i {
     transition: all 0.4s linear;
 }
 
+.reloj {
+    width: 20vw;
+}
+
 @media only screen and (max-width: 700px) {
     .column-100 {
         height: 12vw;
@@ -233,5 +236,8 @@ i {
     .column-5 {
         width: 50%;
         float: left;
+    }
+    .reloj {
+        width: 50vw;
     }
 }
